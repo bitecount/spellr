@@ -1,0 +1,18 @@
+An spell checker and spelling suggestion program implemented using kdtrees.
+
+[ Build ] 
+g++ spellr.cpp -o spellr
+
+[ Run ]
+./spellr wordlist.txt 
+time taken = (3) seconds, (430871) microseconds
+appel
+time taken = (0) seconds, (9196) microseconds
+['rappel', 'apple', 'appeal', 'appal']
+oragne
+time taken = (0) seconds, (23280) microseconds
+['orange']
+merciry
+time taken = (0) seconds, (29191) microseconds
+['mercury']
+
